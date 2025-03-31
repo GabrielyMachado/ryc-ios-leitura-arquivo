@@ -39,11 +39,22 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		620D6A4C2D8CE7690095938C /* Exceptions for "reading-files" folder in "Compile Sources" phase from "reading-files" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 620D6A112D8CE32E0095938C /* Sources */;
+			membershipExceptions = (
+				file.txt,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		620D6A172D8CE32E0095938C /* reading-files */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				620D6A3D2D8CE3310095938C /* Exceptions for "reading-files" folder in "reading-files" target */,
+				620D6A4C2D8CE7690095938C /* Exceptions for "reading-files" folder in "Compile Sources" phase from "reading-files" target */,
 			);
 			path = "reading-files";
 			sourceTree = "<group>";

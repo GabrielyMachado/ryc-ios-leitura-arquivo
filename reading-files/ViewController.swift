@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        let path = Bundle.main.path(forResource:"file", ofType: "txt")
+        let fileContent = try! String(contentsOfFile: path!, encoding: .utf8)
+        print(fileContent)
     }
-
-
 }
 
